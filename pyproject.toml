@@ -1,0 +1,13 @@
+[project]
+name = "lezh1n-product-cls"
+version = "0.1.0"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi==0.115.0",
+    "pydantic==2.10.1",
+    "python-multipart==0.0.12",
+    "requests==2.32.3",
+    "torch==2.5.1",
+    "transformers==4.46.3",
+    "uvicorn[standard]==0.32.0",
+]
